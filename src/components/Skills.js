@@ -1,3 +1,8 @@
-export default function Skills() {
+import React from "react";
+
+
+function Skills() {
     
 }
+
+export default Skills;
