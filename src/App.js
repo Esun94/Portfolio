@@ -7,14 +7,19 @@ import Skills from "./components/Skills";
 
 function App() {
   return (
-      <main>
-        <Navbar />
-        <About />
-        <Projects />
-        <Skills />
-        <Contact />
-      </main>
-  );
+    <h1 className="text-3xl font-bold underline">
+      Hello world!
+    </h1>
+  )
+  // return (
+  //   <main>
+  //     <Navbar />
+  //     <About />
+  //     <Projects />
+  //     <Skills />
+  //     <Contact />
+  //   </main>
+  // );
 }
 
 export default App;
