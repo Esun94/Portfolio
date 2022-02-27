@@ -4,17 +4,19 @@ import Contact from "./components/Contact";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
+// import { Button, TextField } from "@mui/material";
 
 
 function App() {
   return (
-    <main >
-      <Navbar />
-      <About />
-      <Projects />
-      <Skills />
-      <Contact />
-    </main>
+  <div className="App">
+   <Navbar />
+   <About />
+   <Projects />
+   <Skills />
+   <Contact />
+  </div>
+    
   );
 }
 

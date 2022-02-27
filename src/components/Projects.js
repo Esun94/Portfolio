@@ -1,11 +1,8 @@
 import React from "react";
 
 
-
 function Projects() {
-    return (
-        
-    )
+  return <div> This is where my projects will be displayed</div>
 
 }
 
