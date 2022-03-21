@@ -1,8 +1,11 @@
 import React from "react";
+import Container from "react-bootstrap/Container"
 
 function Contact() {
     return (
-        <div> this is where you can contact me </div>
+        <Container className="contactSec" id="contact">
+            <h2> This is where my contact info goes</h2>
+        </Container>
     )
 }
 

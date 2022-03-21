@@ -1,8 +1,12 @@
 import React from "react";
+import Container from "react-bootstrap/Container";
 
 function About() {
     return (
-        <h1> This is the About me section</h1>
+        <Container className="" id="about">
+            <h1> This is the About me section</h1>
+        </Container>
+        
     )
     
 }

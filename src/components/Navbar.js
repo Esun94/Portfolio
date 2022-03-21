@@ -1,20 +1,27 @@
 import React from "react";
-import { AppBar,Toolbar, ListItem, IconButton, ListItemText, Avatar, Divider, List, Typography, Box } from '@mui/material';
+import Navbar from "react-bootstrap/Navbar";
+import Nav from "react-bootstrap/Nav";
+import Container from "react-bootstrap/Container";
 
-import { ArrowBack, AssignmentInd, Home, Apps, ContactMail } from '@mui/icons-material'
 
-function Navbar() {
+
+function Navigation() {
     return (
-        <Box>
-            <AppBar>
-                <Toolbar>
-                    <ArrowBack />
-                </Toolbar>
-            </AppBar>
-
-        </Box>
+        <Container>
+            <Navbar className="sticky-top" bg="light" variant="light">
+                <Container>
+                    <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+                        <Nav className="d-flex flex-row-reverse">
+                        <Nav.Link href="#contact">Contact</Nav.Link>
+                        <Nav.Link href="#skills">Skills</Nav.Link>
+                        <Nav.Link href="#projects">Projects</Nav.Link>
+                        <Nav.Link href="#about">About</Nav.Link>
+                        </Nav>
+                </Container>
+            </Navbar>
+        </Container>
     )
-    
+
 }
 
-export default Navbar;
+export default Navigation;
