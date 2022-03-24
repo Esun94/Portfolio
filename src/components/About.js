@@ -7,7 +7,6 @@ function About() {
             <div>
                 <center>
                 <h1> Hello, I'm Eric !</h1>
-                <break></break>
                 <p>Aspiring software engineer, lover of all things tech, I have a facination with AI, Machine Learning, and Automation.</p>
                 </center>
             </div>

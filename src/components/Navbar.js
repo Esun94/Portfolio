@@ -8,9 +8,9 @@ import Container from "react-bootstrap/Container";
 function Navigation() {
     return (
         <Container>
-            <Navbar className="sticky-top" bg="light" variant="light">
+            <Navbar className="py-3" bg="light" variant="light">
                 <Container>
-                    <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+                    <Navbar.Brand href="#home">Eric Sun</Navbar.Brand>
                         <Nav className="d-flex flex-row-reverse">
                         <Nav.Link href="#contact">Contact</Nav.Link>
                         <Nav.Link href="#skills">Skills</Nav.Link>
