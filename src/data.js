@@ -3,16 +3,14 @@ import { Card, Button } from 'react-bootstrap';
 
 export default function Project(props) {
     return (
-
         <Card style={{ width: '18rem' }}>
             <Card.Img variant="top" src="holder.js/100px180" />
             <Card.Body>
-                <Card.Title>Job Portal</Card.Title>
+                <Card.Title>{props.title}</Card.Title>
                 <Card.Text>
-                    Some quick example text to build on the card title and make up the bulk of
-                    the card's content.
+                    {props.description}
                 </Card.Text>
-                <Button variant="primary" href='https://github.com/Esun94/Job_Portal' >GitHub Link</Button>
+                <Button variant="primary" href={props.link} >GitHub Link</Button>
             </Card.Body>
         </Card>
     )
