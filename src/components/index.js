@@ -4,17 +4,16 @@ import About from "./About";
 import Projects from './Projects';
 import Skills from './Skills';
 import Contact from './Contact';
-import Data from '../data';
 
 const Home = () => {
   return (
-    <>
+    <div className='component-container'>
         <Navigation />
         <About />
         <Projects />
         <Skills />
         <Contact />
-    </>
+    </div>
   )
 }
 

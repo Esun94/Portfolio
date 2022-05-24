@@ -1,0 +1,43 @@
+/* * {
+    background-color: #1a202c;
+    color: white;
+}
+
+.container {
+    background-color: yellow;
+}
+.card-body {
+    background-color: #1a202c;
+    flex-direction: column;
+} */
+.nav-bar {
+    background-color: #435a84;
+}
+
+.project-container {
+    display: grid;
+   
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #32415b;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 25px;
+    cursor: pointer;
+    -moz-osx-font-smoothing: grayscale;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
+  }
+  
+  .card-container:hover {
+    transform: scale(1.05);
+  }
+
+  .component-container {
+      background-color:  #293448 ;
+      color: white;
+  }
