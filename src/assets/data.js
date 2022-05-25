@@ -1,4 +1,5 @@
 import jobportal from './images/jobportal.png'
+import clientRolodex from './images/client-rolodex.png'
 
 export const projects = [
     {
@@ -13,7 +14,7 @@ export const projects = [
         title: 'Client Rolodex',
         subtitle: 'Filter through a preset data-set of clients by name',
         description: 'A simple rolodex built with React, and CSS styling. User types into search bar desired client by name, and watch as results filter in real time',
-        image: '',
+        image: clientRolodex,
         link: '',
         github: 'https://github.com/Esun94/Client_Rolodex'
     },
