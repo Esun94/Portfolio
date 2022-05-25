@@ -12,11 +12,11 @@
     flex-wrap: wrap;
     flex-direction: column;
     margin: 0 auto;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 20px;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px; */
     background-color: #32415b;
     border: 1px solid grey;
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 25px;
     cursor: pointer;
     -moz-osx-font-smoothing: grayscale;
@@ -28,3 +28,52 @@
   .card-body-container:hover {
     transform: scale(1.05);
   }
+
+/* 
+.skills-section-header {
+  text-align: center;
+  margin-bottom: 10rem;
+}
+
+.chip-icon {
+  display: inline-block;
+  width: 10rem;
+  margin-bottom: 4rem;
+}
+
+.skills-title {
+  margin-bottom: 4rem;
+  font: medium;
+}
+
+.skill-body {
+  margin: auto;
+}
+/* .skills-container {
+  
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+} */
+
+/* .skill-tech-body {
+  padding: 5px, 10px;
+  margin: auto;
+  
+} */
+/* 
+.skills-info-container{
+  background-color: yellow;
+  display: flex;
+  
+}
+.skill{
+  padding: 2rem;
+  
+
+}
+
+.badge-icon {
+  color: rgb(96, 217, 96);
+  
+} */

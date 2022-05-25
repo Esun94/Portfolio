@@ -19,19 +19,22 @@ export const projects = [
         github: 'https://github.com/Esun94/Client_Rolodex'
     },
     {
-        title: '',
-        subtitle: '',
-        description: '',
-        image: '',
+        title: 'Client Rolodex',
+        subtitle: 'Filter through a preset data-set of clients by name',
+        description: 'A simple rolodex built with React, and CSS styling. User types into search bar desired client by name, and watch as results filter in real time',
+        image: clientRolodex,
         link: '',
-        github: ''
-    },
-    {
-        title: '',
-        subtitle: '',
-        description: '',
-        image: '',
-        link: '',
-        github: ''
+        github: 'https://github.com/Esun94/Client_Rolodex'
     }
+];
+
+export const skills = [
+    'Javascript',
+    'Node.js',
+    'React',
+    'MongoDB',
+    'Express',
+    'jQuery',
+    'SQL',
+    'MySQL'
 ];
