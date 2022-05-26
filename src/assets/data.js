@@ -26,7 +26,7 @@ export const projects = [
         link: '',
         github: 'https://github.com/Esun94/Client_Rolodex'
     }
-];
+]
 
 export const skills = [
     'Javascript',

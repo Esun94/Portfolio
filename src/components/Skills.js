@@ -5,7 +5,7 @@ import { skills } from "../assets/data";
 
 function Skills() {
     return (
-        <Container className="skills-main-container mt-auto">
+        <Container className="skills-main-container mt-auto" id="skills">
             <Container className="skill-tech-body">
                 <Container className="skills-section-header">
                     <ChipIcon className='chip-icon' />
