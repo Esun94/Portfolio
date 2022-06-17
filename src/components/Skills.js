@@ -21,7 +21,7 @@ function Skills() {
                         <Container key={skill} className="col-md-2">
                             <Container className="skills-info-container">
                                 <BadgeCheckIcon className="badge-icon"/>
-                                <span className="">{skill}</span>
+                                <span className="skills-icons">{skill}</span>
                             </Container>
                         </Container>
                     ))}

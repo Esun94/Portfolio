@@ -14,8 +14,8 @@ function Projects() {
       <Container className="projects-card-container row">
         {/* <Container className="row-container row"> */}
           {projects.map((project) => (
-            <Card className="project-wrapper col-md-3 mx-1 my-2">
-              <Card.Body className="project-container">
+            // <Card className="project-wrapper col-md-3 mx-1 my-2">
+              <Card.Body className="project-container"col-md-3 mx-1 my-2>
                 <Card.Img className="mb-3" src={project.image}></Card.Img>
                 <Card.Title className="text-center mb-4">{project.title}</Card.Title>
                 <Card.Subtitle className="text-center mt-3">{project.subtitle}</Card.Subtitle>
@@ -25,7 +25,7 @@ function Projects() {
                 <Card.Link href={project.link}>Link</Card.Link>
                 <Card.Link href={project.github}>Github</Card.Link>
               </Card.Body>
-            </Card>
+            // </Card>
           ))}
         {/* </Container> */}
       </Container>
