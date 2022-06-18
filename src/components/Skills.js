@@ -6,8 +6,7 @@ import { skills } from "../assets/data";
 function Skills() {
     return (
         <Container className="skills-main-container mt-auto" id="skills">
-            <Container className="skill-tech-body">
-                <Container className="skills-section-header">
+                <Container className="skills-header">
                     <ChipIcon className='chip-icon' />
                     <h1 className="skills-title">
                         Skills &amp; Technologies
@@ -16,17 +15,14 @@ function Skills() {
                         Here is a list of skills and technologies I learned along my coding journey !
                     </p>
                 </Container>
-                <Container className="row">
+                <Container className="skills-icon">
                     {skills.map((skill) => (
-                        <Container key={skill} className="col-md-2">
-                            <Container className="skills-info-container">
-                                <BadgeCheckIcon className="badge-icon"/>
-                                <span className="skills-icons">{skill}</span>
-                            </Container>
+                        <Container key={skill} className="skills-body">
+                            <BadgeCheckIcon className="badge-icon" />
+                            <span className="skill">{skill}</span>
                         </Container>
                     ))}
                 </Container>
-            </Container>
         </Container>
 
     )

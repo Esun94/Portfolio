@@ -5,7 +5,7 @@ import { Container, Navbar, Nav } from "react-bootstrap";
 
 function Navigation() {
     return (
-        <Navbar sticky="top" className="nav-bar py-3" variant='dark'>
+        <Navbar sticky="top" className="nav-bar py-3" variant='light'>
             <Container>
                 <Navbar.Brand href="#home">Eric Sun</Navbar.Brand>
                 <Nav className="d-flex flex-row-reverse">
