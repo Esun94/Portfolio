@@ -1,5 +1,6 @@
 .app-container {
-  background-color: #FDF9F9; 
+  /* background-color: #FDF9F9;  */
+  background-color: #E1DDDD;
   color: #191818;
 }
 
@@ -12,6 +13,17 @@
   top: 1em;
   border-bottom-left-radius: 6em;
   border-top-right-radius: 5em;
+}
+
+.projects-tail {
+  position: sticky;
+  width: 3.5em;
+  height: 7em;
+  left: 89%;
+  bottom: 8%;
+  /* margin: 0; */
+  background-color: #147efb;
+  border-bottom-left-radius: 6em;
 }
 
 .about-me {
@@ -38,9 +50,34 @@ h1.about-me-greeting {
   background-color: #F9FDFD;
 }
 
+.main-project-container {
+  min-height: 43em;
+  /* max-height: auto; */
+  margin-top: 6em;
+  /* margin-bottom: 5em; */
+  background-color: #147efb;
+  border-radius: 8em;
+}
+
+h1.projects-intro {
+  margin: .5em;
+}
+
+p.projects-desc {
+  margin-bottom: 2em;
+}
+
+.project-section-header {
+  color: white;
+  font-family: 'SF Pro';
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 .project-container {
-  /* font-family: 'SF Pro'; */
+  font-family: 'SF Pro';
   display: flex;
   flex-direction: column;
   margin: .5em;
@@ -62,6 +99,7 @@ h1.about-me-greeting {
 }
 
 .projects-card-container {
+  margin-bottom: 1em;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;

@@ -36,5 +36,6 @@ export const skills = [
     'Express',
     'jQuery',
     'SQL',
-    'MySQL'
+    'MySQL',
+    // 'Python'
 ];
