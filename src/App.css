@@ -4,24 +4,28 @@
   color: #191818;
 }
 
+.nav-bar {
+  /* margin-bottom: 2em; */
+  position: sticky;
+
+  margin-bottom: 3em;
+}
+
 .tail {
   margin-top: 3em;
   position: relative;
   width: 3.5em;
   height: 7em;
   background-color: #147efb;
-  top: 1em;
   border-bottom-left-radius: 6em;
   border-top-right-radius: 5em;
 }
 
 .projects-tail {
-  position: sticky;
+  position: relative;
   width: 3.5em;
-  height: 7em;
-  left: 89%;
-  bottom: 8%;
-  /* margin: 0; */
+  height: 6em;
+  left: 45%;
   background-color: #147efb;
   border-bottom-left-radius: 6em;
 }
@@ -32,10 +36,11 @@
   font-family: 'SF Pro';
   color: white;
   display: flex;
-  margin-top: 2em;
+  /* margin-top: 13em; */
   margin-bottom: 2em;
   background-color: #147efb;
   border-radius: 10em;
+  scroll-margin-top: 20vh;
 }
 p.about-me-body {
   display: flex;
@@ -52,11 +57,10 @@ h1.about-me-greeting {
 
 .main-project-container {
   min-height: 43em;
-  /* max-height: auto; */
-  margin-top: 6em;
-  /* margin-bottom: 5em; */
+  margin-top: 5em;
   background-color: #147efb;
   border-radius: 8em;
+  scroll-margin-top: 19vh;
 }
 
 h1.projects-intro {
