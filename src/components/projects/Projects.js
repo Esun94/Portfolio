@@ -1,8 +1,8 @@
 import React from "react";
 import { Container, Card } from "react-bootstrap";
-import { projects } from "../assets/data";
+import { projects } from "../../assets/data";
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import './projects.css'
 
 function Projects() {
   return (
@@ -20,13 +20,13 @@ function Projects() {
             <Card.Text className="text-center mt-4">
               {project.description}
             </Card.Text>
-            <Card.Link href={project.link}>Link</Card.Link>
-            <Card.Link href={project.github}>Github</Card.Link>
+            <Card.Link  className="m-0" href={project.link}>Link</Card.Link>
+            <Card.Link className="m-0" href={project.github}>Github</Card.Link>
           </Card.Body>
         ))}
       </Container>
-      <Container className="projects-tail">
-      </Container>
+      {/* <Container className="projects-tail">
+      </Container>  */}
     </Container>
   )
 }

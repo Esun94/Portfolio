@@ -1,0 +1,56 @@
+.bg-image {
+    position: static;
+    margin-top: -80px;
+    width: 100vw;
+    height: 101vh;
+    background: url('../../assets/images/nyc.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.about-me {
+    border: .5px solid rgba(139, 139, 139, 0.662);
+    position: static;
+    margin-top: -500px;
+    color: white;
+    font-family: 'Montserrat';
+    margin-bottom: 30em;
+    height: 10em;
+    padding: 0;
+    /* scroll-margin-top: 20vh; */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: transparent;
+    min-height: 15em;
+    backdrop-filter: blur(3px);
+}
+
+h1.about-me-greeting {
+    /* margin-top: 1em; */
+    font-family: 'Montserrat';
+    margin-top: .5em;
+    font-size: 3em;
+    width: 7.5em;
+    display: flex;
+    justify-content: center;
+}
+
+p.about-me-body {
+    /* background-color: rgb(66, 66, 66); */
+    /* margin-bottom: 1em; */
+    /* margin-left: 1em;
+    margin-right: 1em; */
+    font-family: 'Montserrat';
+    margin-bottom: 2em;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    font-size: 1.25em;
+    flex-wrap: wrap;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}

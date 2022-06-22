@@ -1,164 +1,208 @@
 .app-container {
-  /* background-color: #FDF9F9;  */
-  background-color: #E1DDDD;
+  background-color: #FDF9F9;
   color: #191818;
 }
 
-.nav-bar {
-  /* margin-bottom: 2em; */
-  position: sticky;
+@media (max-width: 576px) {
 
-  margin-bottom: 3em;
-}
+  .nav-bar {
+    /* margin-bottom: 2em; */
+    margin-bottom: 3em;
+  }
 
-.tail {
-  margin-top: 3em;
-  position: relative;
-  width: 3.5em;
-  height: 7em;
-  background-color: #147efb;
-  border-bottom-left-radius: 6em;
-  border-top-right-radius: 5em;
-}
+  .tail {
+    margin-right: 1.5em;
+    /* margin-left: 0; */
+    top: 2.5em;
+    left: 1.5%;
+    position: relative;
+    width: 3.5em;
+    height: 7em;
+    background-color: #147efb;
+    border-bottom-left-radius: 6em;
+    border-top-right-radius: 5em;
+  }
 
-.projects-tail {
-  position: relative;
-  width: 3.5em;
-  height: 6em;
-  left: 45%;
-  background-color: #147efb;
-  border-bottom-left-radius: 6em;
-}
+  .projects-tail {
+    position: relative;
+    top: 1em;
+    width: 3.5em;
+    height: 6em;
+    left: 45%;
+    background-color: #147efb;
+    border-bottom-left-radius: 6em;
+  }
 
-.about-me {
-  min-height: 10em;
-  max-height: 10em;
-  font-family: 'SF Pro';
-  color: white;
-  display: flex;
-  /* margin-top: 13em; */
-  margin-bottom: 2em;
-  background-color: #147efb;
-  border-radius: 10em;
-  scroll-margin-top: 20vh;
-}
-p.about-me-body {
-  display: flex;
-  margin: 2.5em;
-}
-h1.about-me-greeting {
-  display: flex;
-  margin: 1em;
-}
+  .skills-tail {
+    position: relative;
+    top: 1em;
+    width: 3.5em;
+    height: 6em;
+    right: 45%;
+    /* background-color: #8e8e93; */
+    background-color: #7F7F84;
+    border-bottom-right-radius: 6em;
+  }
 
-.nav-bar {
-  background-color: #F9FDFD;
-}
+  .about-me {
+    min-height: 10em;
+    max-height: 10em;
+    font-family: 'SF Pro';
+    color: white;
+    display: flex;
+    align-items: center;
+    /* margin-top: 13em; */
+    margin-bottom: 2em;
+    background-color: #147efb;
+    /* background-color: #a0a0a1; */
+    border-radius: 10em;
+    scroll-margin-top: 20vh;
+  }
 
-.main-project-container {
-  min-height: 43em;
-  margin-top: 5em;
-  background-color: #147efb;
-  border-radius: 8em;
-  scroll-margin-top: 19vh;
-}
+  p.about-me-body {
+    font-size: 1.2em;
+    display: flex;
+    width: auto;
+    /* margin-left: 2em; */
+    /* margin-top: 2em; */
+    /* margin-right: 1em; */
+  }
 
-h1.projects-intro {
-  margin: .5em;
-}
+  h1.about-me-greeting {
+    width: 7.5em;
+    display: flex;
+    margin-left: 2em;
+    margin-right: 1em;
+    /* margin-top: .8em; */
+    /* margin-bottom: .8em */
+  }
 
-p.projects-desc {
-  margin-bottom: 2em;
-}
+  .nav-bar {
+    /* background-color: #F9FDFD; */
+    background-color: #E1DDDD;
 
-.project-section-header {
-  color: white;
-  font-family: 'SF Pro';
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
+  }
 
-.project-container {
-  font-family: 'SF Pro';
-  display: flex;
-  flex-direction: column;
-  margin: .5em;
-  background-color: #F9FDFD;
-  border-style: solid;
-  border-color: #FFF2F2;
-  border-radius: 5px;
-  height: auto;
-  width: 20em;
-  max-width: 25em;
-  cursor: pointer;
-  -moz-osx-font-smoothing: grayscale;
-  transform: translateZ(0);
-  transition: transform 0.25s ease-out;
-}
+  .main-project-container {
+    min-height: 43em;
+    margin-top: 5em;
+    background-color: #147efb;
+    border-radius: 8em;
+    scroll-margin-top: 15vh;
+  }
 
-.project-container:hover {
-  transform: scale(1.05);
-}
+  h1.projects-intro {
+    margin: .5em;
+  }
 
-.projects-card-container {
-  margin-bottom: 1em;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-}
+  p.projects-desc {
+    margin-bottom: 2em;
+  }
 
-.skills-header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  .project-section-header {
+    color: white;
+    font-family: 'SF Pro';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
-}
+  .project-container {
+    font-family: 'SF Pro';
+    display: flex;
+    flex-direction: column;
+    margin: .5em;
+    background-color: #F9FDFD;
+    border-style: solid;
+    border-color: #FFF2F2;
+    border-radius: 5px;
+    height: auto;
+    width: 20em;
+    max-width: 25em;
+    cursor: pointer;
+    -moz-osx-font-smoothing: grayscale;
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
+  }
+
+  .project-container:hover {
+    transform: scale(1.05);
+  }
+
+  .projects-card-container {
+    margin-bottom: 1em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .skills-main-container {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    /* min-height: 43em; */
+    margin-top: 5em;
+    /* background-color: #8e8e93; */
+    background-color: #7F7F84;
+    border-radius: 8em;
+    scroll-margin-top: 19vh;
+  }
+
+  .skills-header {
+    display: flex;
+    margin-top: 2em;
+    flex-direction: column;
+    align-items: center;
+
+  }
 
 
-.chip-icon {
-  width: 9em;
-}
+  .chip-icon {
+    width: 9em;
+  }
 
-.skills-icon {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-  flex-wrap: wrap;
-  /* border-style: solid; */
-}
+  .skills-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* border-style: solid; */
+  }
 
-.badge-icon {
-  color: rgb(96, 217, 96);
-  width: 3em;
-  
-}
+  .badge-icon {
+    color: rgb(96, 217, 96);
+    width: 3em;
 
-.skills-title {
-  font-family: 'SF Pro';
-}
-.skills-body {
-  font-family: 'SF Pro';
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: .5em;
-  width: 10em;
-  
-}
+  }
 
-p.skills-body {
-  width: 100%
-}
+  .skills-title {
+    font-family: 'SF Pro';
+  }
 
-.skill {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: 'SF Pro';
-  min-width: 4em;
-  margin: .25em;
+  .skills-body {
+    font-family: 'SF Pro';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: .5em;
+    width: 10em;
+
+  }
+
+  p.skills-body {
+    width: 100%
+  }
+
+  .skill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'SF Pro';
+    min-width: 4em;
+    margin: .25em;
+  }
+
 }

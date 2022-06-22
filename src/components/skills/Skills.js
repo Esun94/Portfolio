@@ -1,11 +1,11 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
 import { BadgeCheckIcon, ChipIcon } from "@heroicons/react/solid"
-import { skills } from "../assets/data";
+import { skills } from "../../assets/data";
 
 function Skills() {
     return (
-        <Container className="skills-main-container mt-auto" id="skills">
+        <Container className="skills-main-container" id="skills">
                 <Container className="skills-header">
                     <ChipIcon className='chip-icon' />
                     <h1 className="skills-title">
@@ -22,6 +22,8 @@ function Skills() {
                             <span className="skill">{skill}</span>
                         </Container>
                     ))}
+                </Container>
+                <Container className="skills-tail">
                 </Container>
         </Container>
 

@@ -1,0 +1,63 @@
+.main-project-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    /* min-height: 43em; */
+    /* margin-top: 5em; */
+    scroll-margin-top: 15vh;
+  }
+
+  h1.projects-intro {
+    margin: .5em;
+  }
+
+  p.projects-desc {
+    margin-bottom: 2em;
+  }
+
+  .project-section-header {
+    /* color: white; */
+    position: relative;
+    bottom: 12em;
+    font-family: 'SF Pro';
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .project-container {
+    
+    font-family: 'SF Pro';
+    display: flex;
+    flex-direction: column;
+    margin: .5em;
+    background-color: #F9FDFD;
+    border-style: solid;
+    border-color: #FFF2F2;
+    border-radius: 5px;
+    max-height: 30em;
+    width: 15em;
+    min-width: 15em;
+    max-width: 20em;
+    cursor: pointer;
+    -moz-osx-font-smoothing: grayscale;
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
+  }
+
+  .project-container:hover {
+    transform: scale(1.05);
+  }
+
+  .projects-card-container {
+    margin-bottom: 1em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .card-anchor {
+    margin: 0;
+  }
