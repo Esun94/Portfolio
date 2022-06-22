@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.509ab9ca.css",
+    "main.js": "/Portfolio/static/js/main.7c0d45e3.js",
+    "static/media/nyc.jpg": "/Portfolio/static/media/nyc.46de980be29fea6c6cfc.jpg",
+    "static/media/client-rolodex.png": "/Portfolio/static/media/client-rolodex.261151d34cbeb829949e.png",
+    "static/media/jobportal.png": "/Portfolio/static/media/jobportal.a209f20aee77c5d56e73.png",
+    "index.html": "/Portfolio/index.html",
+    "main.509ab9ca.css.map": "/Portfolio/static/css/main.509ab9ca.css.map",
+    "main.7c0d45e3.js.map": "/Portfolio/static/js/main.7c0d45e3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.509ab9ca.css",
+    "static/js/main.7c0d45e3.js"
+  ]
+}
