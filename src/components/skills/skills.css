@@ -1,0 +1,64 @@
+.skills-main-container {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    /* min-height: 43em; */
+    margin-top: 5em;
+    border-radius: 8em;
+    scroll-margin-top: 19vh;
+  }
+
+  .skills-header {
+    display: flex;
+    margin-top: 2em;
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+
+  .chip-icon {
+    width: 9em;
+  }
+
+  .skills-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* border-style: solid; */
+  }
+
+  .badge-icon {
+    color: rgb(96, 217, 96);
+    width: 3em;
+
+  }
+
+  .skills-title {
+    font-family: 'Montserrat';
+  }
+
+  .skills-body {
+    font-family: 'Montserrat';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: .5em;
+    width: 10em;
+
+  }
+
+  p.skills-body {
+    width: 100%
+  }
+
+  .skill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat';
+    min-width: 4em;
+    margin: .25em;
+  }

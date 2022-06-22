@@ -2,6 +2,8 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import { BadgeCheckIcon, ChipIcon } from "@heroicons/react/solid"
 import { skills } from "../../assets/data";
+import './skills.css';
+
 
 function Skills() {
     return (

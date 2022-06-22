@@ -1,6 +1,7 @@
 .main-project-container {
     display: flex;
-    flex-direction: row;
+    color: white;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
     /* min-height: 43em; */
@@ -18,17 +19,19 @@
 
   .project-section-header {
     /* color: white; */
-    position: relative;
+    /* position: relative; */
     bottom: 12em;
-    font-family: 'SF Pro';
+    font-family: 'Montserrat';
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 100%;
   }
 
   .project-container {
-    
-    font-family: 'SF Pro';
+    color: black;
+    font-family: 'Montserrat';
     display: flex;
     flex-direction: column;
     margin: .5em;
@@ -36,7 +39,7 @@
     border-style: solid;
     border-color: #FFF2F2;
     border-radius: 5px;
-    max-height: 30em;
+    max-height: 32em;
     width: 15em;
     min-width: 15em;
     max-width: 20em;
