@@ -4,16 +4,15 @@
   color: #191818;
 }
 
+/* 
 @media (max-width: 576px) {
 
   .nav-bar {
-    /* margin-bottom: 2em; */
     margin-bottom: 3em;
   }
 
   .tail {
     margin-right: 1.5em;
-    /* margin-left: 0; */
     top: 2.5em;
     left: 1.5%;
     position: relative;
@@ -40,7 +39,6 @@
     width: 3.5em;
     height: 6em;
     right: 45%;
-    /* background-color: #8e8e93; */
     background-color: #7F7F84;
     border-bottom-right-radius: 6em;
   }
@@ -52,10 +50,8 @@
     color: white;
     display: flex;
     align-items: center;
-    /* margin-top: 13em; */
     margin-bottom: 2em;
     background-color: #147efb;
-    /* background-color: #a0a0a1; */
     border-radius: 10em;
     scroll-margin-top: 20vh;
   }
@@ -64,9 +60,6 @@
     font-size: 1.2em;
     display: flex;
     width: auto;
-    /* margin-left: 2em; */
-    /* margin-top: 2em; */
-    /* margin-right: 1em; */
   }
 
   h1.about-me-greeting {
@@ -74,12 +67,9 @@
     display: flex;
     margin-left: 2em;
     margin-right: 1em;
-    /* margin-top: .8em; */
-    /* margin-bottom: .8em */
   }
 
   .nav-bar {
-    /* background-color: #F9FDFD; */
     background-color: #E1DDDD;
 
   }
@@ -143,9 +133,7 @@
     display: flex;
     flex-direction: column;
     color: white;
-    /* min-height: 43em; */
     margin-top: 5em;
-    /* background-color: #8e8e93; */
     background-color: #7F7F84;
     border-radius: 8em;
     scroll-margin-top: 19vh;
@@ -170,7 +158,6 @@
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
-    /* border-style: solid; */
   }
 
   .badge-icon {
@@ -207,3 +194,5 @@
   }
 
 }
+
+*/
