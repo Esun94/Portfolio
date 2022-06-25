@@ -1,5 +1,5 @@
 .bg-image {
-    position: static;
+    position: relative;
     margin-top: -80px;
     width: 100vw;
     height: 101vh;
@@ -12,14 +12,12 @@
 
 .about-me {
     border: .5px solid rgba(139, 139, 139, 0.662);
-    position: static;
     margin-top: -550px;
     color: white;
     font-family: 'Montserrat';
-    margin-bottom: 30em;
+    margin-bottom: 25em;
     height: 10em;
-    padding: 0;
-    /* scroll-margin-top: 20vh; */
+    /* padding: 0; */
     align-items: center;
     display: flex;
     justify-content: center;
@@ -30,7 +28,6 @@
 }
 
 h1.about-me-greeting {
-    /* margin-top: 1em; */
     font-family: 'Montserrat';
     margin-top: .5em;
     font-size: 3em;
@@ -40,17 +37,12 @@ h1.about-me-greeting {
 }
 
 p.about-me-body {
-    /* background-color: rgb(66, 66, 66); */
-    /* margin-bottom: 1em; */
-    /* margin-left: 1em;
-    margin-right: 1em; */
+    text-align: center;
     font-family: 'Montserrat';
+    margin-top: 1em;
     margin-bottom: 2em;
     margin-left: 1.5em;
     margin-right: 1.5em;
     font-size: 1.25em;
     flex-wrap: wrap;
-    /* display: flex; */
-    /* justify-content: center; */
-    /* align-items: center; */
 }

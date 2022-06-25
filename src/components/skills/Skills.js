@@ -17,9 +17,9 @@ function Skills() {
                         Here is a list of skills and technologies I learned along my coding journey !
                     </p>
                 </Container>
-                <Container className="skills-icon">
+                <Container className="skills-icon-container">
                     {skills.map((skill) => (
-                        <Container key={skill} className="skills-body">
+                        <Container key={skill} className="skills-badge-container">
                             <BadgeCheckIcon className="badge-icon" />
                             <span className="skill">{skill}</span>
                         </Container>

@@ -4,8 +4,6 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    /* min-height: 43em; */
-    /* margin-top: 5em; */
     scroll-margin-top: 15vh;
   }
 
@@ -15,6 +13,7 @@
 
   p.projects-desc {
     margin-bottom: 2em;
+    text-align: center;
   }
 
   .project-section-header {
