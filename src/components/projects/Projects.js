@@ -13,7 +13,7 @@ function Projects() {
       </Container>
       <Container className="projects-card-container">
         {projects.map((project) => (
-          <Card.Body className="project-container" >
+          <Card.Body key={project.title} className="project-container" >
             <Card.Img className="mb-3" src={project.image}></Card.Img>
             <Card.Title className="text-center mb-4">{project.title}</Card.Title>
             <Card.Subtitle className="text-center mt-3">{project.subtitle}</Card.Subtitle>

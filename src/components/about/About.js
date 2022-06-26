@@ -10,7 +10,7 @@ function About() {
         </div>
             <Container className=" about-me " id="about">
                 <h1 className="about-me-greeting"> Hello, I'm Eric !</h1>
-                <p className="about-me-body">Aspiring Full-Stack Web Developer, constantly eager to learn and level up my skills! Take a look below at some of my work and skills I have aquired through-out my coding journey!</p>
+                <p className="about-me-body">Aspiring Full-Stack Web Developer, constantly eager to learn and level up my skills! Take a look at some of my work and skills I have aquired through-out my coding journey!</p>
 
             </Container>
             <Container className="tail">

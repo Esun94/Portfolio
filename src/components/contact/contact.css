@@ -1,0 +1,21 @@
+.contact-container {
+    display: flex;
+    font-family: 'Montserrat';
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    margin-top: 5em;
+    min-height: 15em;
+    /* max-height: 30em; */
+    scroll-margin-top: 15vh;
+    width: 40%;
+}
+
+.contact-header {
+    margin-bottom: 2em;
+}
+
+.contact-form {
+    margin-bottom: 5em;
+}
