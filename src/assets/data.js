@@ -1,7 +1,7 @@
 import jobportal from './images/jobportal.png';
-import clientRolodex from './images/client-rolodex.png';
+// import clientRolodex from './images/client-rolodex.png';
 import astronomyWorld from './images/astronomy_world.png';
-
+import spaceTourism from './images/space-tourism.png'
 
 export const projects = [
     {
@@ -21,12 +21,12 @@ export const projects = [
         github: 'https://github.com/kjphelps90/NASA-daily-astronomy'
     },
     {
-        title: 'Client Rolodex',
-        subtitle: 'Filter through a preset data-set of clients by name',
-        description: 'A simple rolodex built with React, and CSS styling. User types into search bar desired client by name, and watch as results filter in real time',
-        image: clientRolodex,
-        link: '',
-        github: 'https://github.com/Esun94/Client_Rolodex'
+        title: 'Space Tourism',
+        subtitle: 'Take a look at some intersting facts about neighboring planets, the ISS Crew, and the technology used to expand our horizons',
+        description: 'Built with React and Material UI 5 to be fast, responsive, with a modern feel',
+        image: spaceTourism,
+        link: 'https://takuyamats.github.io/space-tourism/',
+        github: 'https://github.com/TakuyaMats/space-tourism'
     },
     // {
     //     title: 'Client Rolodex',
